@@ -5,3 +5,4 @@ A command-line to-do list used to practise Git branching, merging and conflict r
 ## Run
 
     python todo.py
+Add, complete and delete tasks.
