@@ -27,7 +27,7 @@ def delete_task(tasks, number):
 
 
 def format_task(number, task):
-    return f"{number}. [{'x' if task['done'] else ' '}] {task['title']}"
+    return f"{number}. [{'x' if task['done'] else ' '}] {task['title'].capitalize()}"
 
 
 def ask_number(tasks):
